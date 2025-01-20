@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "co": "sui-mono commit"
   },
   "dependencies": {
     "@heroui/react": "^2.6.14",
     "@s-ui/mono": "^2.45.0",
     "framer-motion": "^12.0.0",
     "next": "15.1.5",
+    "pdf-lib": "^1.17.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
