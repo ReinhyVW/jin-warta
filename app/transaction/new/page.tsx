@@ -74,7 +74,8 @@ export default function Home() {
           verified_by: verifiedBy,
         })
       })
-      console.log(await response.json())
+      const transactionReceiptUrl = await response.json()
+      window.open(transactionReceiptUrl.data, "_blank");
     } catch (error) {
       console.error(error)
     }
