@@ -9,7 +9,7 @@ export default async function Home() {
 
       <section className="flex flex-col gap-4 w-full mx-4">
         <h2>Actions</h2>
-        <Button as="a" href="/transactions/new">Create new Transaction</Button>
+        <Button as="a" href="/transaction/new">Create new Transaction</Button>
       </section>
 
       <SignOutButton><Button color='danger' className='max-w-xs w-full' size='lg'>Sign Out</Button></SignOutButton>
