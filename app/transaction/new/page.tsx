@@ -17,7 +17,7 @@ type SelectData = {
   label: string
 }
 
-export default function Home() {
+export default function CreateTransactionPage() {
   const [transactionTypes, setTransactionTypes] = useState<SelectData[]>([]);
 
   getLocalTimeZone()
